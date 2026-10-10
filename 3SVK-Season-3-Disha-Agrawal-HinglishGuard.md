@@ -67,7 +67,7 @@ The pipeline is stateless. No user data is stored. Only anonymized evaluation re
 - **Metric 2: Recovery Rate.** (Accuracy(Hinglish + HinglishGuard) minus Accuracy(Hinglish)) divided by the Accuracy Gap. A value of 1.0 means the gap is fully closed.
 - **Metric 3: Latency Overhead.** Mean added time per query, in milliseconds, introduced by the normalization layer.
 
-Measured values are reported in the accompanying results section once the evaluation is run on the final question set.
+**Status:** This submission presents the problem definition, system design and measurement protocol. Measured values for the metrics above have not yet been collected and will be added in a revised version after the evaluation is run on the final question set.
 
 ## 8. Limitations & Future Work
 
